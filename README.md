@@ -10,7 +10,7 @@ Its important that your **fork** this repository before clicking the 'Deploy to 
 
 Once you have fork this repository, click the 'Deploy to Azure' button below
 
-<a href="https://azuredeploy.net/" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fabirismyname%2Fazure-slack-hubot%2Fmaster%2Fazuredeploy.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
 
