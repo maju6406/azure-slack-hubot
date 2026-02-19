@@ -10,9 +10,7 @@ Its important that your **fork** this repository before clicking the 'Deploy to 
 
 Once you have fork this repository, click the 'Deploy to Azure' button below
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fabirismyname%2Fazure-slack-hubot%2Fmaster%2Fazuredeploy.json" target="_blank">
-    <img src="http://azuredeploy.net/deploybutton.png"/>
-</a>
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmaju6406%2Fazure-slack-hubot%2Fmaster%2Fazuredeploy.json)
 
 Below are the parameters that the template expects
 
@@ -132,3 +130,4 @@ See https://hubot.github.com/docs/#scripts for instructions on adding additional
 Unfortunately [Slingshot](https://github.com/projectkudu/slingshot) (the project that implements the Deploy To Azure button) does not currently support continuous deployment (see [https://github.com/projectkudu/slingshot/issues/21](https://github.com/projectkudu/slingshot/issues/21)). This means that changes to your repository are not automatically deployed.
 
 Instead, once you have pushed your changes to your repository, you have to manually sync via the portal. If you go the web app blade, you will see a 'deployment' tile. Clicking on this will bring up a new blade with a 'Sync' button. Clicking on the 'Sync' button will pull the latest changes from your repository. When complete, click 'Restart' to restart your web app to see the new scripts.
+
